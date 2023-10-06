@@ -4,7 +4,10 @@ h1 {
     font-family: cursive;
 }
 p { color: black; }
-h3 { color:deeppink}
+h3 { 
+    color:deeppink;
+    text-shadow: 2px 2px 5px plum;
+}
 h2 {color:hotpink;}
 ul {color:black; }
 body{
