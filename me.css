@@ -9,3 +9,9 @@ ul {color:black; }
 body{
     background-color: plum;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
