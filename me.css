@@ -6,7 +6,8 @@ h1 {
 p { color: black;}
 h3 { 
     color:deeppink;
-    text-shadow: 2px 2px 5px plum;
+    text-shadow: 5px plum;
+    text-align: center;
 }
 h2 {
     color:purple;
