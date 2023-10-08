@@ -1,4 +1,4 @@
 const btn = document.getElementById('btn');
 btn.addEventListener('click',function onClick(event)){
-    document.body.style.color = 'pink';
+    Event.AT_TARGET.style.color = 'pink' ;
 }
