@@ -10,9 +10,8 @@
 </head>
 <body>
 	<div>Amelia Bresnahan's Hello World</div>
-	<button id="btn">Button</button>
-	<script src="me.js"></script>
-	<h1> Amelia Bresnahan's Hello World </h1>
+	<button type="button" onclick="myFunction()">Click Here</button>
+	<h1 id="name"> Amelia Bresnahan's Hello World </h1>
 	<p>Lewis Email <a href="mailto:ameliabresnahan@lewisu.edu">Send email</a></p>
 	<p>Discord Username: abresnahan7 </p>
 	<img src="me.png" alt="Amelia's Picture" class="center" style="width: 300px;">
@@ -47,5 +46,10 @@
 				<li>Innovation of Email <a href="https://www.emailonacid.com/blog/article/email-marketing/history-of-email/#:~:text=1971%3A%20The%20Invention%20of%20Email,people%20using%20the%20same%20computer."> Email </a></li>
 			  </ul>
 		  </section>
+<script>
+	function myFunction() {
+		document.getElementById("name").style.color="red";
+	}
+</script>
 </body>
 </html>
